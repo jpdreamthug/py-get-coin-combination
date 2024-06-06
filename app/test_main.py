@@ -10,7 +10,6 @@ from app.main import get_coin_combination
         pytest.param(6, [1, 1, 0, 0]),
         pytest.param(16, [1, 1, 1, 0]),
         pytest.param(41, [1, 1, 1, 1])
-        
     ]
 )
 def test_all_smallest_ranges(coins_amount: int, combination: list) -> None:
